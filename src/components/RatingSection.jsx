@@ -32,7 +32,9 @@ const RatingSection = () => {
   const dashOffset = useTransform(scrollYProgress, [0, 1], [500, 0]);
 
   return (
-    <div ref={wrapperRef} className="relative h-[350vh] bg-white">
+    <div ref={wrapperRef} className="relative h-[250vh] bg-white"
+    style={{ backgroundColor: "#f5f5f5" }}
+>
       {/* Sticky Section */}
       <div
         ref={stickyRef}
@@ -65,7 +67,7 @@ const RatingSection = () => {
                 d="M0,100 L71,110 L142,90 L213,60 L284,80 L355,40 L426,20"
                 fill="none"
                 stroke="#10b981"
-                strokeWidth="3"
+                strokeWidth="5"
                 strokeDasharray="500"
                 style={{
                   strokeDashoffset: dashOffset,
@@ -80,3 +82,4 @@ const RatingSection = () => {
 };
 
 export default RatingSection;
+  

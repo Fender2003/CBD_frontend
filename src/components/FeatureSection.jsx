@@ -73,10 +73,10 @@ const newPlayerVariants = {
     <div 
       ref={containerRef}
       className="relative"
-      style={{ height: '200vh' }}
+      style={{ height: '250vh' }}
     >
         
-      <section className="min-h-screen w-full relative bg-[#FDF6C8] z-50 overflow-hidden py-24 px-8 flex items-center justify-center sticky top-0">
+      <section className="min-h-screen w-full relative bg-white z-50 overflow-hidden py-24 px-8 flex items-center justify-center sticky top-0">
 
   {/* <h1 className="absolute top-10 left-1/2 -translate-x-1/2 text-[120px] font-bold text-black/10 z-0 pointer-events-none select-none">
     Matchmaking
@@ -146,7 +146,7 @@ const newPlayerVariants = {
                   whileHover="hover"
                   variants={newPlayerVariants}
                 >
-                  <WalkingStickFigure color="rgba(215, 196, 101, 1)" speed={0.9} />
+                  <WalkingStickFigure color="rgb(215, 196, 101)" speed={0.9} />
                 </motion.div>
               )}
             </AnimatePresence>

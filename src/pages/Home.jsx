@@ -6,6 +6,8 @@ import WordScrollAnimation from "../components/WordScrollAnimation";
 import bgImage from "../assets/homeBackground.jpg";
 import RatingSection from "../components/RatingSection";
 import TournamentsSection from "../components/TournamentSection"
+import BookingCalendar from "../components/BookingCalendar"
+import LoginPage from "../components/LoginPage"
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -40,12 +42,22 @@ const Home = () => {
       <FeatureSection />
 
 
+
       <RatingSection/>
 
+
+
       <TournamentsSection/>
-      {/* <section className="h-screen bg-gray-200 flex items-center justify-center">
+
+
+
+      <BookingCalendar/>
+
+
+
+      <section className="h-screen bg-gray-200 flex items-center justify-center">
         <h1 className="text-4xl">Another Section</h1>
-      </section> */}
+      </section>
 
       {/* Footer */}
       <Footer />
