@@ -7,7 +7,6 @@ import bgImage from "../assets/homeBackground.jpg";
 import RatingSection from "../components/RatingSection";
 import TournamentsSection from "../components/TournamentSection"
 import BookingCalendar from "../components/BookingCalendar"
-import LoginPage from "../components/LoginPage"
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
