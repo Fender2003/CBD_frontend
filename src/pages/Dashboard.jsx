@@ -2,11 +2,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import PickleballHub from "./PickleballHub";
+import pickleballImg from "../assets/pickleball.png";
+import cricketImg from "../assets/cricket.jpg";
 
 const sports = [
-  { name: "Pickleball", path: "/dashboard/pickleball", image: "src/assets/pickleball.png" },
-  { name: "Cricket", path: "/dashboard/cricket", image: "src/assets/cricket.jpg" },
+  { name: "Pickleball", path: "/dashboard/pickleball", image: pickleballImg },
+  { name: "Cricket", path: "/dashboard/cricket", image: cricketImg },
 ];
 
 const Dashboard = () => {
